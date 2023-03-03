@@ -45,8 +45,6 @@
     grid-area: botao;
 }
 
-/*desafio Aula 4*/
-
 .agenda__item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -61,7 +59,7 @@
 @media(min-width: 720px) {
     
     .banner {
-        grid-template-columns: calc(50% - 0.75rem);
+        grid-template-columns: calc(50% - 0.75rem) auto calc(30% - 0.75rem);
         column-gap: 1.5rem;
     }
 
